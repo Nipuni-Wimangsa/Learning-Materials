@@ -10,11 +10,11 @@ function createCircle(radius) {
 }
 
 //constuctor function -> pascal notation
-function CreateCircle(radius) {
+function Circle(radius) {
     this.radius = radius;
     this.draw = function() {
         console.log('draw');
     }
 }
 
-const circle = new CreateCircle(1);
+const circle = new Circle(1);
